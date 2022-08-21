@@ -18,7 +18,7 @@ pie title People who can benefit from learning Markdown
 
 "Creators & Learners" : 10
 
-"Don't need to learn it": 60
+"People who don't need to learn it": 60
 ```
 
 ```mermaid
