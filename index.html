@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <body> <!-- this is a super weird bug. Markdown will not work if you remove additional bug!!!-->
+      <div class="mermaid">
+        flowchart TB
+        A(Congratulations! Fate has lead you to this repo.)-->B{Do you need a Markdown Blog?}
+        B-->C(YES)
+        C-->Ca(We totally understand! Everybody does!)
+        B-->D(NO)
+        Ca-->END((Go and get that Markdown Blog))
+        D-->Da(What do you mean, no? Sure you do! Everybody does!!!)
+        Da-->END
+      </div>
+      <div class="mermaid">
+        pie title People who can benefit from learning Markdown
+        "Writers of all kind": 20
+        "Developers & Designers" : 10
+        "Creators & Learners" : 10
+        "People who don't need to learn it": 60
+      </div>
+      <div class="mermaid">
+      pie title People who should learn Markdown (after second thought)
+      "Everybody" : 100
+      </div>
+    
+      <script src="./node_modules/mermaid/dist/mermaid.js"></script>
+      <script>
+          mermaid.initialize({ startOnLoad: true });
+      </script>
+  </body>
+</html>
